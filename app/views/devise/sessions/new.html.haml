@@ -2,23 +2,24 @@
   地図から学ぶ日本の偉人たち
 
 %h2 Log in
+.login-box
+  = form_for(resource, as: resource_name, url: session_path(resource_name)) do |f|
+    .login-box_email
+      = f.label :email                                                # テキスト
+      = f.email_field :email, autofocus: true, autocomplete: "email"  # フォーム
+    .field-b_pass
+      = f.label :password                                             # テキスト
+      = f.password_field :password, autocomplete: "current-password"  # フォーム
+    
+    - if devise_mapping.rememberable?
+      .field_remember-pass
+        = f.check_box :remember_me  # チェックボックス(レ点用)
+        = f.label :remember_me      # 左記のテキスト
+    
+    .login-box_login-btn
+      = f.submit "Log in"           # <log in> ボタン
 
-= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f|
-  .field
-    = f.label :email                                                # テキスト
-    = f.email_field :email, autofocus: true, autocomplete: "email"  # フォーム
-  .field
-    = f.label :password                                             # テキスト
-    = f.password_field :password, autocomplete: "current-password"  # フォーム
-  
-  - if devise_mapping.rememberable?
-    .field
-      = f.check_box :remember_me  # チェックボックス(レ点用)
-      = f.label :remember_me      # 左記のテキスト
-  .actions
-    = f.submit "Log in"           # <log in> ボタン
-
-= render "devise/shared/links"
+    = render "devise/shared/links"   #log inの下のSign upと下の行のForget your password?の２行をrenderで引き出している
 
 .footer
   app/views/devise/sessions/new.html.haml
