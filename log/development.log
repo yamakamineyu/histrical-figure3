@@ -275,3 +275,17 @@ Processing by TopController#index as HTML
 Completed 200 OK in 334ms (Views: 334.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2021-07-07 22:33:45 +0900
+Processing by TopController#index as HTML
+  Rendering layouts/index.html.haml within layouts/application
+  Rendered layouts/index.html.haml within layouts/application (10.9ms)
+Completed 200 OK in 353ms (Views: 343.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-07-07 22:37:08 +0900
+Processing by TopController#index as HTML
+  Rendering layouts/index.html.haml within layouts/application
+  Rendered layouts/index.html.haml within layouts/application (2.2ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
