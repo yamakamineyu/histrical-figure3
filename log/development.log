@@ -439,3 +439,45 @@ Processing by Devise::RegistrationsController#new as HTML
 Completed 200 OK in 51ms (Views: 50.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/users/sign_up" for ::1 at 2021-07-08 02:10:09 +0900
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/shared/_error_messages.html.haml (1.7ms)
+  Rendered devise/shared/_links.html.haml (2.1ms)
+  Rendered devise/registrations/new.html.haml within layouts/application (11.9ms)
+Completed 200 OK in 37ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-07-08 02:11:10 +0900
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/shared/_error_messages.html.haml (1.9ms)
+  Rendered devise/shared/_links.html.haml (2.4ms)
+  Rendered devise/registrations/new.html.haml within layouts/application (13.1ms)
+Completed 200 OK in 48ms (Views: 46.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-07-08 02:12:05 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (3.0ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (10.5ms)
+Completed 200 OK in 43ms (Views: 41.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-07-08 02:14:42 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (3.2ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (10.8ms)
+Completed 200 OK in 49ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-07-08 02:15:25 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (2.2ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (8.6ms)
+Completed 200 OK in 35ms (Views: 33.4ms | ActiveRecord: 0.0ms)
+
+
