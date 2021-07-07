@@ -481,3 +481,287 @@ Processing by Devise::SessionsController#new as HTML
 Completed 200 OK in 35ms (Views: 33.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/users/sign_in" for ::1 at 2021-07-08 02:18:19 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (2.4ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (10.0ms)
+Completed 200 OK in 46ms (Views: 45.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-07-08 02:20:28 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (2.3ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (8.4ms)
+Completed 200 OK in 38ms (Views: 36.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-07-08 02:21:13 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (3.1ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (9.0ms)
+Completed 200 OK in 44ms (Views: 42.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-07-08 02:21:18 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (2.1ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (7.3ms)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-07-08 02:21:25 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (1.9ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (7.5ms)
+Completed 200 OK in 31ms (Views: 30.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-07-08 02:21:48 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (2.3ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (7.3ms)
+Completed 200 OK in 34ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-07-08 02:21:49 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (2.6ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (8.3ms)
+Completed 200 OK in 38ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-07-08 02:22:18 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/sessions/new.html.haml within layouts/application (9.0ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:16: unknown regexp options - dv
+/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:16: unmatched close parenthesis: /
+)).to_s);).to_s);; _hamlout.buffer << ("\n</i
+/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:16: syntax error, unexpected $undefined
+... _hamlout.buffer << ("\n</div>\n".freeze);; end;; _hamlout.b...
+...                              ^
+/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:16: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+..._hamlout.buffer << ("<div class='actions'>\n".freeze);; _ham...
+...                          ^~~~~
+/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:16: syntax error, unexpected $undefined
+...fer << ("<div class='actions'>\n".freeze);; _hamlout.buffer ...
+...                              ^
+/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:17: syntax error, unexpected tCONSTANT, expecting ')'
+...rs.html_escape((( f.submit "Log in"
+...                            ^~~
+/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:18: syntax error, unexpected $undefined, expecting ')'
+....to_s);; _hamlout.buffer << ("\n</div>\n".freeze);; end;; _h...
+...                              ^
+/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:19: unknown regexp options - hard
+/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:19: unmatched close parenthesis: /div>\n".freeze);; end;; _hamlout.buffer << ((::Haml::Helpers.html_escape((haml_temp).to_s);).to_s);; _hamlout.buffer << ((
+::Haml::Helpers.html_escape((( render "devise/
+/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:19: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...(( render "devise/shared/links"
+...                              ^
+/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:20: syntax error, unexpected $undefined, expecting ')'
+....to_s);; _hamlout.buffer << ("\n<div class='footer'>\napp/vi...
+...                              ^
+/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:20: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...amlout.buffer << ("\n<div class='footer'>\napp/views/devise/...
+...                          ^~~~~
+/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:20: syntax error, unexpected $undefined
+...er << ("\n<div class='footer'>\napp/views/devise/sessions/ne...
+...                              ^
+/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:20: syntax error, unexpected $undefined, expecting ')'
+.../devise/sessions/new.html.haml\n</div>\n".freeze);; 
+...                              ^
+/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:24: unterminated regexp meets end of file
+          end
+             ^
+/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:24: unmatched close parenthesis: /div>\n".freeze);; 
+::Haml::Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.upper if @haml_buffer;end;
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+/m
+/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:24: syntax error, unexpected end-of-input, expecting ')'
+          end
+             ^):
+  
+app/views/devise/sessions/new.html.haml:16: unknown regexp options - dv
+app/views/devise/sessions/new.html.haml:16: unmatched close parenthesis: /
+app/views/devise/sessions/new.html.haml:16: syntax error, unexpected $undefined
+app/views/devise/sessions/new.html.haml:16: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+app/views/devise/sessions/new.html.haml:16: syntax error, unexpected $undefined
+app/views/devise/sessions/new.html.haml:17: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/devise/sessions/new.html.haml:18: syntax error, unexpected $undefined, expecting ')'
+app/views/devise/sessions/new.html.haml:19: unknown regexp options - hard
+app/views/devise/sessions/new.html.haml:19: unmatched close parenthesis: /div>\n".freeze);; end;; _hamlout.buffer << ((::Haml::Helpers.html_escape((haml_temp).to_s);).to_s);; _hamlout.buffer << ((
+app/views/devise/sessions/new.html.haml:19: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/devise/sessions/new.html.haml:20: syntax error, unexpected $undefined, expecting ')'
+app/views/devise/sessions/new.html.haml:20: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+app/views/devise/sessions/new.html.haml:20: syntax error, unexpected $undefined
+app/views/devise/sessions/new.html.haml:20: syntax error, unexpected $undefined, expecting ')'
+app/views/devise/sessions/new.html.haml:24: unterminated regexp meets end of file
+app/views/devise/sessions/new.html.haml:24: unmatched close parenthesis: /div>\n".freeze);; 
+app/views/devise/sessions/new.html.haml:24: syntax error, unexpected end-of-input, expecting ')'
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (110.7ms)
+Started GET "/users/sign_in" for ::1 at 2021-07-08 02:22:24 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/sessions/new.html.haml within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:16: unknown regexp options - dv
+/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:16: unmatched close parenthesis: /
+)).to_s);).to_s);; _hamlout.buffer << ("\n</i
+/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:16: syntax error, unexpected $undefined
+... _hamlout.buffer << ("\n</div>\n".freeze);; end;; _hamlout.b...
+...                              ^
+/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:16: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+..._hamlout.buffer << ("<div class='actions'>\n".freeze);; _ham...
+...                          ^~~~~
+/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:16: syntax error, unexpected $undefined
+...fer << ("<div class='actions'>\n".freeze);; _hamlout.buffer ...
+...                              ^
+/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:17: syntax error, unexpected tCONSTANT, expecting ')'
+...rs.html_escape((( f.submit "Log in"
+...                            ^~~
+/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:18: syntax error, unexpected $undefined, expecting ')'
+....to_s);; _hamlout.buffer << ("\n</div>\n".freeze);; end;; _h...
+...                              ^
+/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:19: unknown regexp options - hard
+/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:19: unmatched close parenthesis: /div>\n".freeze);; end;; _hamlout.buffer << ((::Haml::Helpers.html_escape((haml_temp).to_s);).to_s);; _hamlout.buffer << ((
+::Haml::Helpers.html_escape((( render "devise/
+/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:19: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...(( render "devise/shared/links"
+...                              ^
+/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:20: syntax error, unexpected $undefined, expecting ')'
+....to_s);; _hamlout.buffer << ("\n<div class='footer'>\napp/vi...
+...                              ^
+/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:20: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...amlout.buffer << ("\n<div class='footer'>\napp/views/devise/...
+...                          ^~~~~
+/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:20: syntax error, unexpected $undefined
+...er << ("\n<div class='footer'>\napp/views/devise/sessions/ne...
+...                              ^
+/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:20: syntax error, unexpected $undefined, expecting ')'
+.../devise/sessions/new.html.haml\n</div>\n".freeze);; 
+...                              ^
+/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:24: unterminated regexp meets end of file
+          end
+             ^
+/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:24: unmatched close parenthesis: /div>\n".freeze);; 
+::Haml::Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.upper if @haml_buffer;end;
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+/m
+/Users/yamamotoyuta/projects/histrical-figure3/app/views/devise/sessions/new.html.haml:24: syntax error, unexpected end-of-input, expecting ')'
+          end
+             ^):
+  
+app/views/devise/sessions/new.html.haml:16: unknown regexp options - dv
+app/views/devise/sessions/new.html.haml:16: unmatched close parenthesis: /
+app/views/devise/sessions/new.html.haml:16: syntax error, unexpected $undefined
+app/views/devise/sessions/new.html.haml:16: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+app/views/devise/sessions/new.html.haml:16: syntax error, unexpected $undefined
+app/views/devise/sessions/new.html.haml:17: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/devise/sessions/new.html.haml:18: syntax error, unexpected $undefined, expecting ')'
+app/views/devise/sessions/new.html.haml:19: unknown regexp options - hard
+app/views/devise/sessions/new.html.haml:19: unmatched close parenthesis: /div>\n".freeze);; end;; _hamlout.buffer << ((::Haml::Helpers.html_escape((haml_temp).to_s);).to_s);; _hamlout.buffer << ((
+app/views/devise/sessions/new.html.haml:19: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/devise/sessions/new.html.haml:20: syntax error, unexpected $undefined, expecting ')'
+app/views/devise/sessions/new.html.haml:20: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+app/views/devise/sessions/new.html.haml:20: syntax error, unexpected $undefined
+app/views/devise/sessions/new.html.haml:20: syntax error, unexpected $undefined, expecting ')'
+app/views/devise/sessions/new.html.haml:24: unterminated regexp meets end of file
+app/views/devise/sessions/new.html.haml:24: unmatched close parenthesis: /div>\n".freeze);; 
+app/views/devise/sessions/new.html.haml:24: syntax error, unexpected end-of-input, expecting ')'
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.1ms)
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (103.5ms)
+Started GET "/users/sign_in" for ::1 at 2021-07-08 02:22:30 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (2.2ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (8.7ms)
+Completed 200 OK in 37ms (Views: 35.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-07-08 02:26:02 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (2.6ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (9.9ms)
+Completed 200 OK in 46ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-07-08 02:26:04 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (2.2ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (8.3ms)
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-07-08 02:26:12 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (1.8ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (7.4ms)
+Completed 200 OK in 32ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-07-08 02:27:11 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (2.2ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (8.2ms)
+Completed 200 OK in 31ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-07-08 02:27:59 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (6.3ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (12.7ms)
+Completed 200 OK in 37ms (Views: 35.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-07-08 02:28:00 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (1.9ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (8.0ms)
+Completed 200 OK in 34ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-07-08 02:30:31 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (2.0ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (7.9ms)
+Completed 200 OK in 31ms (Views: 30.4ms | ActiveRecord: 0.0ms)
+
+
