@@ -3,11 +3,14 @@
 
 .transition-bar
   .transition-bar__register
-    新規登録 
+    = link_to new_user_registration_path do
+      新規登録 
   .transition-bar__login
-    ログイン
+    = link_to new_user_session_path do
+      ログイン
   .transition-bar__guest
-    ゲストログイン
+    = link_to "#" do
+      ゲストログイン
 
 .japan-map
   日本地図ー自動生成ー入れる予定
