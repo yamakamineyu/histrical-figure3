@@ -1,7 +1,7 @@
 
 
 .transition-bar {
-  background-color: saddlebrown;
+  background-color: gray;
   max-width: auto;
   height: 50px;
   display: flex;
@@ -9,21 +9,24 @@
 
   &__register {
     background-color: aqua;
-    width: auto;
-    height: 30px;
-    line-height: 20px;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
   }
   &__login {
     background-color: seagreen;
-    width: auto;
-    height: 30px;
-    line-height: 20px;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
   }
   &__guest {
     background-color: darkgoldenrod;
-    width: auto;
-    height: 30px;
-    line-height: 20px;  }
+    width: 150px;
+    height: 50px;
+    line-height: 50px;  }
+    text-align: center;
 }
 
 
