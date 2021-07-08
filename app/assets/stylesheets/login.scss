@@ -37,7 +37,51 @@
 }
 
 
+.login-box {
+  background-color: khaki;
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
 
+  &__row-size {
+    width: 400px;
+    height: 100px;
+    vertical-align: middle;
+    background-color: blanchedalmond;
+    padding-left: 10px;
+
+    &--email {
+      width: auto;
+      height: 50px;
+      line-height: 50px;
+      background-color: #80D0E0;
+      font-size: 25px;
+    }
+
+    &--pass {
+      width: auto;
+      height: 50px;
+      line-height: 50px;
+      background-color: gray;
+      font-size: 25px;
+    }
+    
+    &--remember-pass {
+      background-color: lawngreen;
+      width: auto;
+      height: 50px;
+      line-height: 50px;
+    }
+
+    &--login-btn {
+      background-color: olive;
+      width: auto;
+      height: 50px;
+      line-height: 50px;
+    }
+
+  }
+}
 
 .footer {
   background: linear-gradient(45deg, #dde 12%, transparent 0, transparent 88%, #dde 0), linear-gradient(135deg, transparent 37%, #aab 0, #aab 63%, transparent 0), linear-gradient(45deg, transparent 37%, #dde 0, #dde 63%, transparent 0), #335;
