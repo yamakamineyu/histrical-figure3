@@ -57,6 +57,13 @@
       background-color: #80D0E0;
       font-size: 25px;
     }
+    #email-form {
+      background-color: lightcoral;
+      height: 30px;
+      line-height: 30px;
+      margin-left: 65px;
+      vertical-align: middle ;
+    }
 
     &--pass {
       width: auto;
@@ -65,6 +72,13 @@
       background-color: gray;
       font-size: 25px;
     }
+      #pass-form {
+        background-color: lightcoral;
+        height: 30px;
+        line-height: 30px;
+        margin-left: 10px;
+        vertical-align: middle;
+      }
     
     &--remember-pass {
       background-color: lawngreen;
@@ -78,6 +92,11 @@
       width: auto;
       height: 50px;
       line-height: 50px;
+      #login-btn {
+        height: 25px;
+        width: 80px;
+        font-size: 15px;
+      }
     }
 
   }
