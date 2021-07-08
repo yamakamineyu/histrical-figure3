@@ -2,22 +2,24 @@
 
 .transition-bar {
   background-color: saddlebrown;
-  width: auto;
+  max-width: auto;
   height: 50px;
+  display: flex;
+  justify-content: flex-end;
 
-  .transition-bar__register {
+  &__register {
     background-color: aqua;
     width: auto;
     height: 30px;
     line-height: 20px;
   }
-  .transition-bar__login {
+  &__login {
     background-color: seagreen;
     width: auto;
     height: 30px;
     line-height: 20px;
   }
-  .transition-bar__guest {
+  &__guest {
     background-color: darkgoldenrod;
     width: auto;
     height: 30px;
