@@ -10,10 +10,10 @@
     .login-box__row-size
       .login-box__row-size--email
         = f.label :email                                                # テキスト
-        = f.email_field :email, autofocus: true, autocomplete: "email"  # フォーム
+        = f.email_field :email, id: 'email-form', autofocus: true, autocomplete: "email"  # フォーム
       .login-box__row-size--pass
         = f.label :password                                             # テキスト
-        = f.password_field :password, autocomplete: "current-password"  # フォーム
+        = f.password_field :password, id: 'pass-form', autocomplete: "current-password"  # フォーム
     
     - if devise_mapping.rememberable?
       .login-box__row-size--remember-pass
@@ -21,7 +21,7 @@
         = f.label :remember_me      # 左記のテキスト
     
       .login-box__row-size--login-btn
-        = f.submit "Log in"           # <log in> ボタン
+        = f.submit "Log in", id: 'login-btn'           # <log in> ボタン
 
     -# = render "devise/shared/links"   #log inの下のSign upと下の行のForget your password?の２行をrenderで引き出している
 
