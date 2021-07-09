@@ -1,27 +1,26 @@
 .header
   = render partial: "render/header"
-  
+
+.signup-display
+  .signup-display__text
+    新規登録
+
 .signup
-  %h2 新規登録
   = form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f|
     = render "devise/shared/error_messages", resource: resource
-    .signup_box_box
-      .signup_box_email
+    .signup__box
+      .signup__box--email
         = f.label :email
-        %br/
         = f.email_field :email, autofocus: true, autocomplete: "email"
-      .signup_box_pass
+      .signup__box--pass
         = f.label :password
         - if @minimum_password_length
-          %em
-            (#{@minimum_password_length} characters minimum)
-        %br/
+          -# (#{@minimum_password_length} characters minimum)
         = f.password_field :password, autocomplete: "new-password"
-      .signup_box_confirm
+      .signup__box--confirm
         = f.label :password_confirmation
-        %br/
         = f.password_field :password_confirmation, autocomplete: "new-password"
-      .signup_box_action
+      .signup__box--action
         = f.submit "Sign up"
     = render "devise/shared/links"
 
