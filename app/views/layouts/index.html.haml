@@ -2,9 +2,12 @@
   = render partial: "render/header"
 
 .transition-bar
+  .transition-bar__logout
+    = link_to destroy_user_session_path(current_user) , method: :delete, class: 'btn-sign-out' do
+      ログアウト
   .transition-bar__register
     = link_to new_user_registration_path do
-      新規登録 
+      新規登録
   .transition-bar__login
     = link_to new_user_session_path do
       ログイン
