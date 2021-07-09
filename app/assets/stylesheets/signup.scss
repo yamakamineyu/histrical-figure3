@@ -1,0 +1,55 @@
+.signup-display {
+  background-color: lemonchiffon;
+  margin: 50px;
+  
+  &__text {
+    font-size: 30px;
+    text-align: center;
+    color: lightcoral;
+  }
+}
+
+
+
+
+.signup {
+  background-color: khaki;
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+
+  &__box {
+    width: 400px;
+    height: 200px;
+    vertical-align: middle;
+    background-color: blanchedalmond;
+    padding-left: 10px;
+
+    &--email {
+      width: auto;
+      height: 50px;
+      line-height: 50px;
+      background-color: #80D0E0;
+      font-size: 25px;
+    }
+    &--pass {
+      width: auto;
+      height: 50px;
+      line-height: 50px;
+      background-color: gray;
+      font-size: 25px;
+    }
+    &--confirm {
+      background-color: lawngreen;
+      width: auto;
+      height: 50px;
+      line-height: 50px;
+    }
+    &--action {
+      background-color: olive;
+      width: auto;
+      height: 50px;
+      line-height: 50px;
+    }
+  }
+}
