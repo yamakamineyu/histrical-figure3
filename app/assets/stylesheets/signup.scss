@@ -20,18 +20,18 @@
 
   &__box {
     width: 400px;
-    height: 200px;
+    height: 300px;
     vertical-align: middle;
     background-color: blanchedalmond;
     padding-left: 10px;
 
-    // &--name {
-    //   width: auto;
-    //   height: 50px;
-    //   line-height: 50px;
-    //   background-color: #80D0E0;
-    //   font-size: 25px;
-    // }
+    &--name {
+      width: auto;
+      height: 50px;
+      line-height: 50px;
+      background-color: #1db37e;
+      font-size: 25px;
+    }
     &--email {
       width: auto;
       height: 50px;
