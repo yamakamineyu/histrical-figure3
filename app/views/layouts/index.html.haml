@@ -16,7 +16,22 @@
       ゲストログイン
 
 .japan-map
-  日本地図ー自動生成ー入れる予定
+  日本地図-地方別
+
+  %script{:src => "//code.jquery.com/jquery-1.12.0.min.js"}
+  = javascript_include_tag 'jquery.japan-map.min.js'
+  :javascript
+    $(function(){
+      $("#map-container").japanMap({
+          width:760,
+          backgroundColor: 'linear-gradient(#05FBFF, #1E00FF)',
+          onSelect : function(data){
+              alert(data.name);
+          }
+        });
+    });
+.japan-map
+  #map-container
 
 .footer
   = render partial: "render/footer"
