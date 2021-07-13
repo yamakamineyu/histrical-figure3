@@ -2,18 +2,11 @@
   = render partial: "render/header"
 
 .transition-bar
-  .transition-bar__logout
-    = link_to destroy_user_session_path(current_user) , method: :delete, class: 'btn-sign-out' do
-      ログアウト
-  .transition-bar__register
-    = link_to new_user_registration_path do
-      新規登録
-  .transition-bar__login
-    = link_to new_user_session_path do
-      ログイン
-  .transition-bar__guest
-    = link_to "#" do
-      ゲストログイン
+  - if user_signed_in?
+    = render "render/login_bar"
+  - else
+    = render "render/not_logged_bar"
+
 
 .japan-map
   日本地図-地方別
@@ -21,8 +14,14 @@
   %script{:src => "//code.jquery.com/jquery-1.12.0.min.js"}
   = javascript_include_tag 'jquery.japan-map.min.js'
   :javascript
-    $(function(){
+      var preflinklist = {
+        "12":"/users/sign_up", //chiba,pathはURIパターンで記述。Prefixだとエラーが発生した。
+        "13":"/Tokyo/", //tokyo
+        "26":"/Kyoto/", //kyoto
+        "27":"/Osaka/"  //osaka
+      };
 
+    $(function(){
         var areas = [
             {"code": 1 , "name":"北海道地方", "color":"#ca93ea", "hoverColor":"#e0b1fb", "prefectures":[1]},
             {"code": 2 , "name":"東北地方",   "color":"#a7a5ea", "hoverColor":"#d6d4fd", "prefectures":[2,3,4,5,6,7]},
@@ -49,9 +48,12 @@
                 fontSize : 12,
                 fontColor : "areaColor",
                 fontShadowColor : "black",
-                onSelect:function(data){
-                    alert(data.name);
-                },
+              onSelect : function(data){
+                if (data.code in preflinklist) {
+                    console.log(preflinklist[data.code]);
+                    location.href = preflinklist[data.code];
+                }
+              }
             }
         );
     });
