@@ -10,18 +10,18 @@
     = render "devise/shared/error_messages", resource: resource
     .signup__box
       .signup__box--name
-        = f.label :nickname
+        = f.label :"ユーザー名"
         = f.text_field :nickname, autofocus: true, placeholder:"例) 山田"
       .signup__box--email
-        = f.label :email
+        = f.label :"メールアドレス"
         = f.email_field :email, autofocus: true, autocomplete: "email"
       .signup__box--pass
-        = f.label :password
+        = f.label :"パスワード"
         - if @minimum_password_length
           -# (#{@minimum_password_length} characters minimum)
         = f.password_field :password, autocomplete: "new-password"
       .signup__box--confirm
-        = f.label :password_confirmation
+        = f.label :"確認用パスワード"
         = f.password_field :password_confirmation, autocomplete: "new-password"
       .signup__box--action
         = f.submit "Sign up"
