@@ -24,7 +24,7 @@
         = f.label :"確認用パスワード"
         = f.password_field :password_confirmation, autocomplete: "new-password"
       .signup__box--action
-        = f.submit "Sign up"
+        = f.submit "Sign up", id: "signup-btn"
     -# = render "devise/shared/links"
 .signup-to-top
   = link_to root_path do

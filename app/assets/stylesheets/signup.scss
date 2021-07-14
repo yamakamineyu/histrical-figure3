@@ -54,13 +54,38 @@
     }
     &--action {
       background-color: olive;
+      display: flex;
+      justify-content: center;
       width: auto;
       height: 50px;
       line-height: 50px;
+      margin-top: 15px;
+
+      // 上は枠組み、下はボタンに関して(btn-ボタン、hover-カーソル時に適用開始)
+      #signup-btn {
+        font-size     : 15px;
+        font-weight   : bold;
+        border-radius : 30%;         /* 角丸       */
+        cursor        : pointer;     /* カーソル    */
+        transition    : 0.3s;        /* なめらか変化 */
+        box-shadow    : 6px 6px 3px #666666;  /* 影の設定 */
+        border        : 1.5px solid #000066;    /* 枠の指定 */
+        &:hover {
+          box-shadow  : none;         /* カーソル時の影消去 */
+          color       : whitesmoke; /* 背景色     */
+          background  : blue;       /* 文字色     */
+        }
+      }
     }
   }
 }
 
+// 後ほど消去
+//
+// 
+// 
+// 
+// 
 .signup-to-top {
   position: absolute;/*←絶対位置*/
   bottom: 50px; /*下に固定*/
