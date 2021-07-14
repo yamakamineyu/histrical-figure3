@@ -60,3 +60,16 @@
     }
   }
 }
+
+.signup-to-top {
+  position: absolute;/*←絶対位置*/
+  bottom: 50px; /*下に固定*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(153, 221, 255, 0.3);
+  line-height: 50px;
+  height: 50px;
+  width: 100%;
+  font-weight: bold;
+}
