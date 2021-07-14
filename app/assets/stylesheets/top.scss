@@ -1,4 +1,12 @@
-
+.japan-map {
+  background-color: rgba(241, 241, 208, 0.5);
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  line-height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+}
 
 .transition-bar {
   background-color: gray;
@@ -36,9 +44,3 @@
     text-align: center;
 }
 
-
-.japan-map {
-  // background-color: #E0E0E0;
-  display: flex;
-  justify-content: center;
-}
