@@ -1,15 +1,5 @@
-.japan-map {
-  background-color: rgba(241, 241, 208, 0.5);
-  display: flex;
-  justify-content: center;
-  height: 50px;
-  line-height: 50px;
-  font-size: 30px;
-  font-weight: bold;
-}
-
 .transition-bar {
-  background-color: gray;
+  background-color: rgb(141, 189, 141);
   max-width: auto;
   height: 50px;
   display: flex;
@@ -43,9 +33,24 @@
     line-height: 50px;  }
     text-align: center;
 }
-
-.japan-map-insert {
-  display: flex;
-  justify-content: center;
+.body {
   background-color: rgba(141, 189, 141, 0.3);
+
+  &__japan-map {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  #map-container {
+    background: linear-gradient(#B3E8FF , #6dd5fa, #2980b9);
+  }
+  &__japan-map-insert {
+    display: flex;
+    justify-content: center;     // 中央寄せ
+    height: calc(100vh - 280px); // -の合計値280px( header:130px, transition-bar:50px, japan-map:50px, footer:50px)
+  }
 }
+
