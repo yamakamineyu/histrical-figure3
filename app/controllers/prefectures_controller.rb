@@ -1,4 +1,7 @@
 class PrefecturesController < ApplicationController
-  def new
+
+  def show
+    render "/prefectures/new.html.haml"
   end
+
 end

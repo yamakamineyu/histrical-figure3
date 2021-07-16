@@ -3,6 +3,9 @@ Rails.application.routes.draw do
 
   get 'histricalfigures/new'
 
+  resources :prefectures
+  # root 'items#new'
+
   devise_for :users
 
   devise_scope :user do
