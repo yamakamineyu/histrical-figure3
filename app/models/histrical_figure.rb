@@ -1,0 +1,2 @@
+class HistricalFigure < ApplicationRecord
+end
