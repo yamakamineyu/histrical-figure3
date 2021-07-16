@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'prefectures/new'
+
   get 'histricalfigures/new'
 
   devise_for :users
