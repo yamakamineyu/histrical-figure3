@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'histricalfigures/new'
+
   devise_for :users
 
   devise_scope :user do
