@@ -2,36 +2,57 @@
   = render partial: "render/header"
 
 .prefecture-img
-  = image_tag 'Pre.23.aichi.png', :height => "700", :width => "700" 
+  = image_tag 'Pre.23.aichi.png', :height => "760", :width => "760" 
+.prefecture-img
+  = @prefectureName
 -# app/assets/images/織田信長.jpeg
 -# app/assets/images/徳川家康.jpeg
 -# app/assets/images/豊臣秀吉.jpeg
 .historical-figures
-  画面右ー枠組み（1/3くらいの利用）
-  .historical-figures__index1
-    .historical-figures__index1--icon 
-      = image_tag '織田信長.jpeg', :height => "150", :width => "150" 
-    .historical-figures__index1__name
-      .historical-figures__index1__name--full-name
+  .historical-figures__index
+    .historical-figures__index__icon 
+      = image_tag '織田信長.jpeg', id: "img"
+      .historical-figures__index__icon--text
         織田信長
-      .historical-figures__index1__name--kana
-        おだ のぶなが
+    .historical-figures__index__name
+      .historical-figures__index__name--land-related
+        ゆかりの地
+      .historical-figures__index__name--add
+        愛知県西部
+      .historical-figures__index__name--another-name
+        異名
+      .historical-figures__index__name--another-name-one
+        第六天魔王
 
-  .historical-figures__index2
-    .historical-figures__index2--icon 
-      icon2
-    .historical-figures__index2--name
-      豊臣秀吉
-    .historical-figures__index1--kana
-      とよとみ ひでよし
+  .historical-figures__index
+    .historical-figures__index__icon
+      = image_tag '豊臣秀吉.jpeg', id: "img"
+      .historical-figures__index__icon--text
+        豊臣秀吉
+    .historical-figures__index__name
+      .historical-figures__index__name--land-related
+        ゆかりの地
+      .historical-figures__index__name--add
+        愛知県西部
+      .historical-figures__index__name--another-name
+        異名
+      .historical-figures__index__name--another-name-one
+        太閤殿下
 
-  .historical-figures__index3
-    .historical-figures__index3--icon 
-      icon3
-    .historical-figures__index3--name
-      徳川家康
-    .historical-figures__index1--kana
-      とくがわ いえやす
+  .historical-figures__index
+    .historical-figures__index__icon 
+      = image_tag '徳川家康.jpeg', id: "img"
+      .historical-figures__index__icon--text
+        徳川家康
+    .historical-figures__index__name
+      .historical-figures__index__name--land-related
+        ゆかりの地
+      .historical-figures__index__name--add
+        愛知県東部
+      .historical-figures__index__name--another-name
+        異名
+      .historical-figures__index__name--another-name-one
+        東海一の弓取り
 
 
 .footer
