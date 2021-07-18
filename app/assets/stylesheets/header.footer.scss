@@ -1,3 +1,8 @@
+.wrapper{
+  min-height: 100vh;
+  position: relative;/*←相対位置*/
+}
+
 .app-title {
   background-image:
   radial-gradient(circle at 100% 150%, #80D0E0 24%, #fff 24%, #fff 28%, #80D0E0 28%, #80D0E0 36%, #fff 36%, #fff 40%, transparent 40%, transparent),
