@@ -2,33 +2,36 @@
   = render partial: "render/header"
 
 .prefecture-img
-  = image_tag 'Pre.12.chiba.jpeg', :height => "700", :width => "700" 
-
+  = image_tag 'Pre.23.aichi.png', :height => "700", :width => "700" 
+-# app/assets/images/織田信長.jpeg
+-# app/assets/images/徳川家康.jpeg
+-# app/assets/images/豊臣秀吉.jpeg
 .historical-figures
   画面右ー枠組み（1/3くらいの利用）
   .historical-figures__index1
     .historical-figures__index1--icon 
-      icon1
-    .historical-figures__index1--name
-      伊能忠敬
-    .historical-figures__index1--kana
-      いのう ただたか
+      = image_tag '織田信長.jpeg', :height => "150", :width => "150" 
+    .historical-figures__index1__name
+      .historical-figures__index1__name--full-name
+        織田信長
+      .historical-figures__index1__name--kana
+        おだ のぶなが
 
   .historical-figures__index2
     .historical-figures__index2--icon 
       icon2
     .historical-figures__index2--name
-      name2
+      豊臣秀吉
     .historical-figures__index1--kana
-      いのう ただたか
+      とよとみ ひでよし
 
   .historical-figures__index3
     .historical-figures__index3--icon 
       icon3
     .historical-figures__index3--name
-      name3
+      徳川家康
     .historical-figures__index1--kana
-      いのう ただたか
+      とくがわ いえやす
 
 
 .footer

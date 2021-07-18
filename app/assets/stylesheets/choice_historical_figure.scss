@@ -1,26 +1,39 @@
 .prefecture-img {
   position: absolute;
   left: 0;
+  margin-left: 100px;
 }
 
 .historical-figures {
   position: absolute; /*←絶対位置*/
   right: 0;          /*下に固定*/
   margin-top: 6px;
+  padding: 20px 40px 20px 40px;
   height: calc(100vh - 180px);
+  width: 30vw;
   background-color: rgba(255, 0, 0, 0.4);
 
   &__index1 {
     background-color: yellow;
+    display: flex;
+    height: 150px;
 
     &--icon {
 
     }
-    &--name {
-      
-    }
-    &--kana {
+    &__name {
+      margin-left: 15px;
 
+      &--full-name {
+        height: 100px;
+        line-height: 100px;
+        font-size: 60px;
+      }
+      &--kana {
+        height: 30px;
+        line-height: 30px;
+        font-size: 30px;
+      }
     }
   }
   
