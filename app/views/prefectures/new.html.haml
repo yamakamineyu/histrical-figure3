@@ -1,2 +1,35 @@
-.form
-  app/views/prefectures/new.html.haml
+.header
+  = render partial: "render/header"
+
+.prefecture-img
+  = image_tag 'Pre.12.chiba.jpeg', :height => "700", :width => "700" 
+
+.historical-figures
+  画面右ー枠組み（1/3くらいの利用）
+  .historical-figures__index1
+    .historical-figures__index1--icon 
+      icon1
+    .historical-figures__index1--name
+      伊能忠敬
+    .historical-figures__index1--kana
+      いのう ただたか
+
+  .historical-figures__index2
+    .historical-figures__index2--icon 
+      icon2
+    .historical-figures__index2--name
+      name2
+    .historical-figures__index1--kana
+      いのう ただたか
+
+  .historical-figures__index3
+    .historical-figures__index3--icon 
+      icon3
+    .historical-figures__index3--name
+      name3
+    .historical-figures__index1--kana
+      いのう ただたか
+
+
+.footer
+  = render partial: "render/footer"

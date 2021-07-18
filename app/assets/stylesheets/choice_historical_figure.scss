@@ -1,0 +1,27 @@
+.prefecture-img {
+  position: absolute;
+  left: 0;
+}
+
+.historical-figures {
+  position: absolute; /*←絶対位置*/
+  right: 0;          /*下に固定*/
+  margin-top: 6px;
+  height: calc(100vh - 180px);
+  background-color: rgba(255, 0, 0, 0.4);
+
+  &__index1 {
+    background-color: yellow;
+
+    &--icon {
+
+    }
+    &--name {
+      
+    }
+    &--kana {
+
+    }
+  }
+  
+}
