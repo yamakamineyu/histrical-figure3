@@ -3,11 +3,19 @@
   left: 0;
   margin-left: 100px;
 }
+.prefecture-text {
+  background-color: rgba(211, 196, 226, 0.3);
+  padding-left: 250px;
+  display: float; 
+  font-size: 60px;
+  width: 15vw;
+  height: 80px;
+}
 
 .historical-figures {
   position: absolute; /*←絶対位置*/
-  right: 0;          /*下に固定*/
-  margin-top: 6px;
+  top: 145px;        /*右に固定*/
+  right: 0;          /*右に固定*/
   padding: 0px 10px 0px 30px;
   height: calc(100vh - 180px);
   width: 40vw;
