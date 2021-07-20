@@ -1,13 +1,12 @@
 Rails.application.routes.draw do
   get 'prefectures/new'
-
   get 'histricalfigures/new'
+  get 'histricalfigures/index'
 
   resources :prefectures
   # root 'items#new'
 
   devise_for :users
-
   devise_scope :user do
     get '/users/sign_out' => 'devise/sessions#destroy'
   end
